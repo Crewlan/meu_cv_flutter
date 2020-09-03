@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121693754610",
+    "firebase_url": "https://meucv-8ac4a.firebaseio.com",
+    "project_id": "meucv-8ac4a",
+    "storage_bucket": "meucv-8ac4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121693754610:android:2b2f8daadcf6a3905f2c6b",
+        "android_client_info": {
+          "package_name": "com.example.meu_cv_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121693754610-ht90om306cnt2uhm90s7d4sv94ao3upk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-b0aRIUQk5HbL47RkxFXl2HDhnD6hdjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121693754610-ht90om306cnt2uhm90s7d4sv94ao3upk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -60,7 +60,7 @@ class HomeScreen extends StatelessWidget {
                       );
                     },
                     showMore: 'Minhas Skills',
-                    cor: Colors.greenAccent,
+                    cor: Colors.blueAccent,
                     image1: Icon(Icons.gamepad),
                   ),
                   CustomSlimyCard(
@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                       _codigo();
                     },
                     showMore: 'Codigo',
-                    cor: Colors.blueGrey,
+                    cor: Colors.grey,
                     image1: Icon(Icons.code),
                   ),
                 ],

@@ -19,7 +19,7 @@ class AppsScreen extends StatelessWidget {
           children: [
             CustomCard(
               title: 'FitApp',
-              googleFonts: GoogleFonts.acme(
+              googleFonts: GoogleFonts.reemKufi(
                 fontSize: 18
               ),
               icon: Icon(Icons.arrow_forward, color: Colors.blueAccent,),
@@ -37,10 +37,10 @@ class AppsScreen extends StatelessWidget {
             ),
             CustomCard(
               title: 'Brooklyn 99 Sticker',
-              googleFonts: GoogleFonts.acme(
+              googleFonts: GoogleFonts.reemKufi(
                 fontSize: 15
               ),
-              icon: Icon(Icons.arrow_forward, color: Colors.red,),
+              icon: Icon(Icons.arrow_forward, color: Colors.blueAccent,),
               onPressed: _brookGPlay,
               onTap: (){
                       Navigator.of(context).push(
@@ -55,10 +55,10 @@ class AppsScreen extends StatelessWidget {
             ),
             CustomCard(
               title: 'Loja Online Firebase',
-              googleFonts: GoogleFonts.acme(
+              googleFonts: GoogleFonts.reemKufi(
                 fontSize: 15
               ),
-              icon: Icon(Icons.arrow_forward, color: Colors.red,),
+              icon: Icon(Icons.arrow_forward, color: Colors.blueAccent,),
               onPressed: _lojaonline,
               onTap: (){
                 Navigator.of(context).push(
@@ -73,10 +73,10 @@ class AppsScreen extends StatelessWidget {
             ),
             CustomCard(
               title: 'Gerenciador de loja online',
-              googleFonts: GoogleFonts.acme(
+              googleFonts: GoogleFonts.reemKufi(
                 fontSize: 15
               ),
-              icon: Icon(Icons.arrow_forward, color: Colors.red,),
+              icon: Icon(Icons.arrow_forward, color: Colors.blueAccent,),
               onPressed: _gerenciadorloja,
               onTap: (){
                       Navigator.of(context).push(
@@ -91,10 +91,10 @@ class AppsScreen extends StatelessWidget {
             ),
             CustomCard(
               title: 'Covid 19 Modular/Mobx',
-              googleFonts: GoogleFonts.acme(
+              googleFonts: GoogleFonts.reemKufi(
                 fontSize: 15
               ),
-              icon: Icon(Icons.arrow_forward, color: Colors.red,),
+              icon: Icon(Icons.arrow_forward, color: Colors.blueAccent,),
               onPressed: _covid19,
               onTap: (){
                 Navigator.of(context).push(

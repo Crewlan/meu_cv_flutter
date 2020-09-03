@@ -32,11 +32,11 @@ class _IntroSplashScreenState extends State<IntroSplashScreen> {
         IntroScreen(
           title: 'Olá',
           imageAsset: 'assets/img/flogo.png',
-          description: 'Este app esta totalmente em Flutter',
+          description: 'Este app esta totalmente em Flutter. Ao clicar no card ele ira abri um outro card e no segundo card é clicavel para ver mais informações',
           headerBgColor: Colors.white,
         ),
         IntroScreen(
-          title: 'Desenvolvido 100%',
+          title: 'Desenvolvimento',
           headerBgColor: Colors.white,
           imageAsset: 'assets/img/alogo.png',
           description: "Feito para Recrutadores e Empresas verem meu perfil e portfolio.",

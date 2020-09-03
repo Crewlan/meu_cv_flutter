@@ -56,12 +56,14 @@ class _SkillScreenState extends State<SkillScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            Text(snapshot.data.data()['title'], style: GoogleFonts.anaheim(
+                            Text(snapshot.data.data()['title'], style: GoogleFonts.raleway(
+                              color: Colors.white,
                               fontSize: 25
                             ),),
-                            SizedBox(height: 15.0),
+                            SizedBox(height: 50),
                             Text(snapshot.data.data()['subtitle'], style: GoogleFonts.anaheim(
-                              fontSize: 20
+                              fontSize: 20,
+                              color: Colors.white
                             ),),
                             SizedBox(height: 15.0),
                           ],
@@ -69,14 +71,14 @@ class _SkillScreenState extends State<SkillScreen> {
                       ),
                       Padding(
                           padding: EdgeInsets.only(
-                              top: MediaQuery.of(context).size.height - 275.0,
+                              top: MediaQuery.of(context).size.height - 355.0,
                               left: 20.0,
                               right: 15.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(snapshot.data.data()['description'], style: GoogleFonts.anaheim(
-                              fontSize: 20
+                              fontSize: 25
                             ),),
                             ],
                           ))
